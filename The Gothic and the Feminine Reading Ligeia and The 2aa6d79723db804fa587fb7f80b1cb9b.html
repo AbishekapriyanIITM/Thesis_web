@@ -1,0 +1,717 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>
+The Gothic and the Feminine: Reading Ligeia and The Lost Jewels Through the Lens of the Female Gothic
+
+</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="2aa6d797-23db-804f-a587-fb7f80b1cb9b" class="page sans"><header><h1 class="page-title"><br/>The Gothic and the Feminine: Reading <em>Ligeia</em> and <em>The Lost Jewels</em> Through the Lens of the Female Gothic<br/><br/></h1><p class="page-description"></p></header><div class="page-body"><h1 id="2aa6d797-23db-80c6-80d9-c25f652880b2" class="">Abishekapriyan S</h1><h2 id="2aa6d797-23db-800f-b823-f346ef1a8db2" class="">MM24B019</h2><p id="2aa6d797-23db-80bb-aa44-c3cedff49566" class="">
+</p><h3 id="2aa6d797-23db-800a-8f3b-dd8cd719db7c" class="">Abstract </h3><p id="2aa6d797-23db-8088-9e35-fcb3f8939714" class="">While Gothic fiction has existed for centuries, it continues to be underappreciated by many critics, and its commentaries on social issues are often overlooked. This paper focuses on one such issue: the representation and role of women within the Gothic framework. To explore this, two stories have been selected for analysis — <em>Ligeia</em> by Edgar Allan Poe and <em>The Lost Jewels</em> by Rabindranath Tagore. The paper first defines what is meant by a “Gothic framework” by examining the form and structure of these works and how they contribute to the creation of a distinctly Gothic atmosphere. Using a combination of intrinsic and extrinsic approaches, it then interprets and analyses the role of women in both stories and their relationships with the male characters.</p><p id="2aa6d797-23db-80fc-a9d5-fcf6db219282" class="">Through this comparative study, the paper investigates how women are represented and symbolically coded within Gothic fiction, and what these portrayals reveal about the broader social and cultural structures of their respective periods. It also highlights how the differing American and Indian contexts shape the depiction of women, thereby contributing to the relatively underexplored discourse on Indian Gothic fiction.</p><p id="2aa6d797-23db-80f4-bccf-ef059c1391c2" class="">Ultimately, the paper reflects on how literature both shapes and is shaped by society, emphasizing the continuing relevance of the Gothic form in understanding gender and power dynamics across cultures</p><hr id="2aa6d797-23db-80ce-9c8c-c585f3d478ee"/><p id="2aa6d797-23db-80e7-821b-e29691e551d3" class="">
+</p><h3 id="2aa6d797-23db-80fb-bc24-c2cb6dca4679" class="">Introduction</h3><p id="2aa6d797-23db-80b6-8eab-f009aa5da861" class="">The word <em>Gothic</em> evokes a range of vivid images—ghosts, haunted mansions, and stormy nights. Gothic fiction has long fascinated both casual readers and scholars alike, as it offers an array of emotional and intellectual experiences. For the casual reader, it provides thrill, terror, and suspense; but in this essay, we shall take a more nuanced approach to understanding the <em>form</em> and <em>function</em> of a Gothic story.</p><p id="2aa6d797-23db-8035-94b1-eda52ce5297a" class="">Gothic fiction has a rich and enduring history. <em>The Castle of Otranto</em> (1764) by Horace Walpole is often regarded as the foundational Gothic novel, blending medieval settings, supernatural elements, and heightened emotions. This form of storytelling quickly gained popularity, with writers such as Ann Radcliffe, Matthew Lewis, and later Mary Shelley expanding its scope by combining terror, horror, and social critique. Throughout the nineteenth century, the Gothic evolved alongside Romanticism and eventually influenced elements of Modernism—continuing to captivate readers and writers to this day.</p><p id="2aa6d797-23db-805c-a9c5-cca2c3dd9b45" class="">It is worth noting, however, that Gothic fiction has not always been well received by critics. Samuel Taylor Coleridge remarked in 1797, “We trust, … that satiety will banish what good sense should have prevented; and that wearied with fiends, incomprehensible characters, with shrieks, murders, and subterranean dungeons, the public will learn … with how little expense of thought or imagination this species of composition is manufactured.” This reflects a common critical opinion that Gothic fiction relies merely on cheap tricks and sensational tropes to entertain the masses. Yet, as Robert D. Hume (1969) argues, “the Gothic novel is more than a collection of ghost-story devices,” and according to Norman Holland (Holland &amp; Sherman, 1977), “the combination of castle, maiden-in-distress, family secrets, and seductive rake does not guarantee a Gothic effect.” These observations form the foundation of the discussion that follows.</p><p id="2aa6d797-23db-8091-8089-d3f9aa130a1b" class="">No study of Gothic literature would be complete without the inclusion of Edgar Allan Poe, whose <em>Ligeia</em> serves as one of the key texts through which we will examine the Gothic framework. The study of this tale sheds light on the psychological and feminist tropes commonly employed in Gothic fiction to produce what Poe himself termed “the effect.”</p><p id="2aa6d797-23db-80a6-b3a5-fa893659398f" class="">In contrast, Rabindranath Tagore’s <em>Lost Jewels</em> is not typically read as a Gothic story. However, a close analysis of its form reveals striking parallels with <em>Ligeia</em>, suggesting that <em>Lost Jewels</em> can indeed be read as a Gothic tale—albeit one emerging from a very different cultural and social context. This comparison challenges the notion that the Gothic is an exclusively European mode of storytelling and highlights its global adaptability.</p><p id="2aa6d797-23db-8031-ad26-d395a790007c" class="">Through the analysis of these two stories, this essay aims to arrive at a more refined understanding of the Gothic short story form. More importantly, it will explore how these narratives portray women, and what such portrayals reveal about the position of women both within the fictional world and in the societies that produced them. By defining the concept of the <em>Female Gothic</em> and applying this framework to both texts, the essay will seek to uncover the intersection between form, gender, and context. To do so, it will adopt a dual approach—using close reading to analyze form and structure, alongside contextual reading to understand the cultural and feminist implications that shape these works.</p><hr id="2aa6d797-23db-80c4-870a-f6dcd9469aa7"/><p id="2aa6d797-23db-8096-9729-dd1815a799dd" class="">
+</p><h3 id="2aa6d797-23db-80bc-8287-d417f7a5681f" class="">Methodology</h3><p id="2aa6d797-23db-8074-92c0-df0ddcee913c" class="">The paper employs both intrinsic and extrinsic approaches to achieve its objectives. Through the intrinsic approach, it examines the form, structure, and style of both <em>Ligeia</em> and <em>The Lost Jewels</em> to understand how these elements collectively create a Gothic atmosphere. Particular attention is given to the setting, tone, narration, and imagery, and to how these contribute to the construction of the Gothic framework within each story. This analysis also helps identify the placement and portrayal of women in these narratives—whether as objects of mystery, agents of transformation, or victims of repression. In this sense, the Gothic is treated not merely as a genre, but as a method of reading that reveals how gender roles and social anxieties are woven into the fabric of the narrative.</p><p id="2aa6d797-23db-8089-8b15-c5948db2d5bc" class="">Through the extrinsic approach, the paper situates the stories within their respective cultural and historical contexts. This includes examining <em>Ligeia</em> (1838) in the broader Western literary tradition and <em>The Lost Jewels</em> (1925) within the framework of Colonial India, where issues of gender, class, and cultural hierarchy intersected in complex ways. Feminist readings are applied to recover the silenced voices of the women within both stories and to understand how patriarchal power dynamics shape their experiences.</p><p id="2aa6d797-23db-80cb-8388-f4dc7bfe5cbd" class="">Finally, the paper employs the framework of Sustainable Development Goal 5 (Gender Equality) as a contemporary interpretive lens. SDG 5 emphasizes the need to eliminate discrimination and violence against women, ensure equal participation in decision-making, and promote access to education and healthcare. By viewing the stories through this modern framework, the paper draws connections between the gendered oppressions depicted in Gothic fiction and the ongoing struggles for equality in today’s world. This approach highlights how literary analysis can serve as a bridge between historical narratives and present-day social goals, revealing that the Gothic’s exploration of fear and power continues to resonate within current discussions of gender and justice.</p><hr id="2aa6d797-23db-80a1-b5a1-ca145a6fd7fc"/><p id="2aa6d797-23db-80a7-a306-d0a096f9a50c" class="">
+</p><h3 id="2aa6d797-23db-8096-8c41-cf0b30a5b855" class="">Gothic Framework</h3><p id="2aa6d797-23db-80a3-ab42-d6952b86ba1e" class="">It is much easier to <em>feel</em> what “Gothic” means than to define it. Several scholars have attempted to capture the essence of the Gothic framework. Robert D. Hume, in his paper, argues that one of the defining features of Gothic literature is its focus on “psychological interests” (Hume, 1969). What characters feel, and what goes on in their minds, often forms the central core around which the story revolves. Gothic narratives frequently feature insanity and hallucinations to dramatize the mental states of their characters. By delving into their psychology, Gothic stories aim to portray the rawest of human emotions — fear and terror (Punter, 1996).</p><p id="2aa6d797-23db-8061-969f-e842557e6ff3" class="">Gothic fiction is often confused with Romantic fiction because both appeal strongly to readers’ emotions. However, while Romanticism seeks to evoke moral and intellectual reflection, the Gothic seeks to draw out powerful, visceral emotions such as horror (Miles, 2002).</p><p id="2aa6d797-23db-80d8-899e-dba9ec9f341a" class="">Hume also suggests that Gothic fiction engages readers in a new and active way. It creates suspense, employs unreliable narrators to withhold information, and invites readers to fill in the gaps with their imagination (Hume, 1969). Thus, readers in Gothic fiction are not mere observers but active participants. This sense of suspense is heightened by the imagery, tone, and setting characteristic of the genre. Classic tropes — old castles, ghosts, stormy nights — though not essential, help establish the atmosphere (Botting, 1996). Supernatural elements strip away logic and instead stimulate the reader’s imagination. This openness to interpretation is why Gothic stories rarely have a single, fixed meaning and why their significance continues to evolve over time (Punter &amp; Byron, 2004).</p><p id="2aa6d797-23db-80ed-bbde-fe88442de3a2" class="">Because of this, Gothic fiction provides an excellent framework not only for analyzing the era in which these works were written but also for reflecting on our contemporary world (Punter, 1996). It is through this lens that we can explore the position of women in society by applying the Gothic framework.</p><p id="2aa6d797-23db-80f1-b18c-c18bf0e1a973" class="">The phrase “Female Gothic” was coined by Ellen Moers to describe Gothic literature written by women (Moers, 1976). Moers suggests that such works often reflect the anxieties and fears unique to women — the feeling of vulnerability even within spaces meant to be safe, such as their own homes (Moers, 1976; Fleenor, 1983). From this point, I argue that the two stories selected for analysis — <em>Ligeia</em> and <em>Lost Jewels</em> — though not written by female authors, embody the essence of Female Gothic. We shall apply this framework individually to both stories and then compare them to comment on the balance of power between man and woman within these narratives.</p><hr id="2aa6d797-23db-8064-bbcb-fa9ba4b22a31"/><p id="2aa6d797-23db-8078-b2d0-c33117207c04" class="">
+</p><h3 id="2aa6d797-23db-80db-8b09-e0f4d1fcafb1" class="">Ligeia</h3><p id="2aa6d797-23db-8011-82a2-cd243da097ec" class=""><em>Ligeia</em> is one of Edgar Allan Poe’s best-known stories, and its plot and structure serve as a perfect example of the Gothic short story. The tale is narrated by an unnamed speaker who speaks reverently of his wife, Ligeia — a woman he describes as extraordinarily intelligent and, in his words, “the most beautiful woman in the world.” Although he recalls her raven-black hair and luminous dark eyes in vivid detail, he cannot remember her last name or how they even met and fell in love.</p><p id="2aa6d797-23db-8063-a8b9-dacbb3826a26" class="">Ligeia is portrayed as a woman of great willpower and exceptional intellect. During the early years of their marriage, she becomes the narrator’s guide through the complex world of his metaphysical studies.</p><p id="2aa6d797-23db-80ba-b168-c1db5a38db19" class="">However, as time passes, Ligeia falls mysteriously ill. Despite her strong will to live, her body gradually weakens. On her deathbed, she composes a poem meditating on the inevitability and cruelty of death. After her passing, the narrator is unable to recover from his grief, yet he eventually marries another woman — Lady Rowena.</p><p id="2aa6d797-23db-80ae-8518-d4bfe28f3d34" class="">Rowena is, in every way, the polar opposite of Ligeia, and the narrator soon begins to despise her. They move into a Gothic tower filled with grotesque decorations that make Rowena uneasy and paranoid; she hears strange sounds that her husband dismisses as imagination. The narrator, meanwhile, develops an opium addiction. When Rowena’s health begins to deteriorate, he increases his drug consumption, believing her death is near. One night, he sees drops of a red liquid fall into her drink — though he cannot be certain whether his senses are trustworthy. Three days later, Rowena dies.</p><p id="2aa6d797-23db-80c1-8aab-ea8021db8a0b" class="">On the fourth night, the narrator sits beside her shrouded corpse, his mind still consumed by thoughts of Ligeia. Suddenly, the corpse moans, and he rushes to its side. Its pale face flushes with color before quickly returning to lifelessness. This happens repeatedly throughout the night. The narrator claims the corpse seems to grow taller and that he can see dark, raven-like hair beneath the shroud. When he leans over, the covering slips away, revealing the face of Lady Ligeia herself — standing before him with her dark hair and luminous eyes.</p><p id="2aa6d797-23db-8041-995f-d77e1a4ecd38" class="">Although <em>Ligeia</em> gives the story its title, much evidence suggests that the tale is less about her and more about the narrator’s psychological instability (Hume, 1969). This is hinted at early in the story when he confesses: “I could not, for my soul, remember how, when, or even precisely where, I first became acquainted with the lady Ligeia.” Yet, in the very next paragraph, he describes her beauty in elaborate detail:</p><blockquote id="2aa6d797-23db-8099-a0d0-f2eff260ae7f" class="">“In beauty of face no maiden ever equalled her. It was the radiance of an opium-dream — an airy and spirit-lifting vision more wildly divine than the phantasies which hovered about the slumbering souls of the daughters of Delos.”</blockquote><p id="2aa6d797-23db-806f-aaad-f8ff5dc9de01" class="">Such lofty praise suggests that Ligeia may not be a real woman at all but rather an idealized creation of the narrator’s imagination (Dayan, 1987). Whatever her own desires or passions might have been, the Ligeia we encounter is likely a projection of the narrator’s own obsessions.</p><p id="2aa6d797-23db-807f-8374-e221cb02e934" class="">The narrator completely submits himself to Ligeia. He claims to recognize her “infinite supremacy” and to have resigned himself with “childlike confidence” to her guidance. This reinforces the idea that he never viewed Ligeia as a fellow human being capable of flaws but as a superior, almost divine figure — a personification of all his ideals (Kennedy, 1987). In this sense, Ligeia becomes an object within the story, existing only to serve the narrator’s needs and fantasies. Even the poem she writes before her death seems to reflect not her voice, but his romanticized and dramatized interpretation of mortality — a struggle with his own ego and disillusionment at seeing his ideal woman conquered by death (Hoffman, 1972).</p><p id="2aa6d797-23db-80bd-bc44-f513a106c24d" class="">Consumed by vanity and intoxicated by the intellectual superiority he attributes to Ligeia’s influence, the narrator never truly loves Rowena. He describes her as utterly unlike Ligeia and admits to hating her with a “hatred belonging more to demon than to man.” Even in her death, his thoughts remain with Ligeia. This dynamic exemplifies the broader position of women in society: they exist primarily to fulfill male desires and are expected to conform to ideals defined by men (Moers, 1976).</p><p id="2aa6d797-23db-809a-a6be-cb879d8b387e" class="">The Gothic framework further highlights Lady Rowena’s precarious situation, even within her own home. Her chamber is described in unsettling terms:</p><blockquote id="2aa6d797-23db-8029-b96d-f8eb208da88d" class="">“To one entering the room, they bore the appearance of simple monstrosities; but upon a farther advance, this appearance gradually departed; and step by step, as the visitor moved his station in the chamber, he saw himself surrounded by an endless succession of the ghastly forms which belong to the superstition of the Norman.”</blockquote><p id="2aa6d797-23db-8098-83c2-e7532b135adc" class="">Returning to Ellen Moers’s definition, this vulnerability is what makes <em>Ligeia</em> a “Female Gothic” story. The underlying structure places its women in a position of constant danger and powerlessness, effectively illuminating the imbalance of gender dynamics — women suffer the consequences of men’s passions, delusions, and decisions (Moers, 1976).</p><p id="2aa6d797-23db-80d2-97ac-c208e664eeae" class="">This makes the story’s ending — the apparent resurrection of Ligeia — profoundly uncanny. The narrator, driven mad by his obsession with both Ligeia and opium, imagines that she has returned from the dead. He interprets this as a triumph of her willpower and desire to live, but it is, in fact, the culmination of his deranged mind and his final act of projecting his fantasies onto the women around him. In doing so, he erases both Ligeia and Rowena as individuals, replacing them with his own imagined ideals. As the story ends with the narrator screaming “LADY LIGEIA” at a corpse, we, as readers, understand that his objectification of women is complete — Ligeia has been stripped of agency even in death.</p><hr id="2aa6d797-23db-8079-9083-cb5191e0357b"/><p id="2aa6d797-23db-8076-a440-e8761af2f7d4" class="">
+</p><h3 id="2aa6d797-23db-80ee-ad29-ef100b9ffdd9" class="">The Lost Jewels</h3><p id="2aa6d797-23db-8024-927c-e6dac3e1a1f2" class=""><em>Lost Jewels</em> is narrated by an unnamed speaker who claims to have heard the story from a schoolmaster sitting in front of a dilapidated mansion. The schoolmaster recounts that a wealthy man named Bhusan Saha, known for his modern outlook, once lived in that house. Bhusan was married to a beautiful woman named Mani, who, according to the schoolmaster, could easily manipulate her husband to get whatever she wanted. The schoolmaster further claims that Bhusan’s modern habits and his willingness to indulge his wife made him weak and, in turn, made Mani spoiled.</p><p id="2aa6d797-23db-8094-8a0d-d6ae17f75004" class="">Eventually, Bhusan fell into financial trouble and needed money. However, fearing to upset his wife by asking for her jewels, he left town to raise funds elsewhere. Mani, meanwhile, grew increasingly paranoid that her husband would make her sell her jewels. Her fears were intensified by her cousin Modhu, who suggested that she take her jewels and leave town. When Bhusan returned, his wife was nowhere to be found despite his desperate search.</p><p id="2aa6d797-23db-80b8-869e-dce67131303c" class="">One night, while Bhusan sat in deep despair, he heard the sound of tinkling jewelry approaching the house. Following the sound, he saw a skeleton adorned with jewels beckoning him. When Bhusan reached out toward it, he stepped into the river and drowned.</p><p id="2aa6d797-23db-8033-8742-c4cd2505c7c5" class="">As the story concludes, the schoolmaster asks the unnamed narrator whether he believes the tale. The narrator then reveals that he himself is Bhusan Saha — and that his wife’s name was not Mani, but Nritya Kali.</p><p id="2aa6d797-23db-80da-b7d0-ec5a3bc3abba" class="">When examined closely, the story’s structure reveals Tagore’s deliberate use of the Gothic form. The ruined mansion introduced at the beginning is a classic Gothic element. The story further employs other Gothic tropes to create an atmosphere of tension and suspense:</p><blockquote id="2aa6d797-23db-80c1-888f-c1d80d69a6f2" class="">“It had been raining incessantly from early morning. In celebration of the festival there was a fair going on in the village, and in a temporary building a theatrical performance was being held. The sound of distant singing could be heard mingling with the sound of pouring rain. Bhusan was sitting alone in the darkness at the window there which hangs loose upon its hinges. He took no notice of the damp wind, the spray of the rain, and the sound of the singing.”</blockquote><p id="2aa6d797-23db-80b1-b32f-ebc74251ff07" class="">These elements set up the perfect stage for the horror that follows — the encounter with the jeweled skeleton:</p><blockquote id="2aa6d797-23db-802d-8d26-e0f8a097f9a4" class="">“Bhusan opened his eyes. He saw by the faint light of the crescent moon that there was a skeleton standing right in front of his chair. It had rings on all its fingers, bracelets on its wrists and armlets on its arms, necklaces on its neck, and a golden tiara on its head,—its whole body glittered and sparkled with gold and diamonds... Most dreadful of all was the fact that the two eyes, which shone out from the bony face, were living,—two dark moist eyeballs looking out with a fixed and steady stare from between the long thick eyelashes.”</blockquote><p id="2aa6d797-23db-801d-bfc4-cc24f4c0546e" class="">Here, Tagore’s use of detailed imagery is striking. The language becomes increasingly descriptive, almost luxuriant, even within a bleak atmosphere. This heightens both the grandeur and the suspense — slowing down the reader’s perception of time and making the final revelation all the more chilling (Joshi, 2014).</p><p id="2aa6d797-23db-8082-b7f7-cfd7fc42a651" class="">Having established that <em>Lost Jewels</em> functions as a Gothic story, we can now consider how it also operates as a <em>Female Gothic</em> text. Although the schoolmaster’s narration portrays Mani as the villain, she is, in reality, a victim of the patriarchal Bengali society of the time (Chatterjee, 1989).</p><p id="2aa6d797-23db-80b8-a9f1-cb3c36db8d37" class="">In that era, women were often regarded as burdens upon their families and were married off at a very young age. Respect from one’s in-laws was tied to the dowry brought into the marriage. Within such a system, it is understandable that Mani viewed her jewels as her greatest possession — symbols of respect in the present and security for the future, should she lose her husband (Sarkar, 2001).</p><p id="2aa6d797-23db-8075-a310-fdda1a0fea64" class="">Like many women of her time, Mani has no real agency throughout the story. The schoolmaster’s claim that she “manipulated” her husband is simply a reflection of his bias — a distortion rooted in his inability to comprehend a relationship built on mutual affection and respect. To him, a man who treats his wife kindly must necessarily be weak or manipulated (Moers, 1976).</p><p id="2aa6d797-23db-809a-ac36-e98d30102573" class="">The schoolmaster remarks that Bhusan possessed both a college education and a beautiful wife — and therefore had no hope of upholding the “good old traditions.” Through this, Tagore exposes the average Bengali man’s reaction to progressive ideas such as women’s education and equality (Chakrabarty, 1992). The entire narrative, as told by the schoolmaster, becomes his attempt to vilify Mani for being treated with respect, and to portray Bhusan as weak for stepping away from patriarchal norms.</p><p id="2aa6d797-23db-80c5-98b4-dea2286ae1aa" class="">The misogyny of the schoolmaster is evident throughout. He suggests that a man who is too gentle risks being deceived by a woman’s love — even implying that Mani might have run away with Modhu after robbing her husband. This, again, reflects his desire to disgrace her character rather than to understand her actions.</p><p id="2aa6d797-23db-80b3-aa4a-d2706b8ef8c7" class="">A more plausible reading is that Mani, young and naive, was deceived by Modhu, who manipulated her into leaving with him — likely robbing and killing her. This interpretation underscores Mani’s lack of autonomy: even her supposed decision to flee is not her own but one planted by another man. The story notes that she is only sixteen, likely forced into child marriage before she could even comprehend the world around her (Sarkar, 2001).</p><p id="2aa6d797-23db-8083-83be-fcca589fc302" class="">This loss of agency is what makes <em>Lost Jewels</em> a <em>Female Gothic</em> story. Tagore uses the Gothic form to highlight the vulnerability of women like Mani, whose fates are decided entirely by men — both within the story and in the society it reflects. In the end, when we learn that the story is false and the woman’s name is not even Mani, Tagore’s irony becomes clear. He exposes not just the schoolmaster’s misogyny but the deeply ingrained biases of the society itself. What seems to be a cautionary tale warning men not to lose control over women is, in truth, a critique of a patriarchal system built on dowry, child marriage, and the silencing of women’s voices (Chakrabarty, 1992)</p><hr id="2aa6d797-23db-80eb-99e6-ca6d4c916c73"/><p id="2aa6d797-23db-806d-87e1-cb4bfd6ba89d" class="">
+</p><h3 id="2aa6d797-23db-80c4-ac43-e8df5e1e535b" class="">Comparative study</h3><p id="2aa6d797-23db-80d4-b281-d2e0d21106d0" class="">Once we look at both stories through the female gothic lens, their similarities become very apparent. The focus—or more appropriately, the <em>lack of focus</em>—on the female’s name in both stories is very curious. In <em>“Ligeia”</em>, the narrator does not remember Ligeia’s parental name, nor does he know anything about her family. In <em>“Lost Jewels”</em>, the narrator even gets the female protagonist’s name wrong. Both instances reveal how inconsequential women were to the narrators, and how the women in question are replaced by the narrators’ own imaginations—stripped of their voices and identities. This symbolizes the silencing of women in their respective societies, showing that despite the cultural differences between them, women in both situations were still subjected to patriarchal control (Moers, 1976; Hume, 1969).</p><p id="2aa6d797-23db-8013-9518-eea2321c0371" class="">Both stories employ unreliable narrators, whose biased recounting of events makes the readers question their credibility—and, to a smaller extent, the entire patriarchal system itself (Dayan, 1987). If any reader completely believed the tales as the narrators spun them, the endings expose their own internal biases, allowing room for self-introspection. This is, in fact, the beauty of the gothic form itself: by building suspense, making readers suspend disbelief, and then revealing a brutal twist at the end, it leaves them shaken. In the moment it takes to recover from that initial shock, reflection begins—and the superficial tropes of ghosts, the uncanny, and haunted mansions fall away, giving rise to the true essence of the gothic form: to reveal the hidden horrors and terrors embedded in everyday life (Hume, 1969).</p><p id="2aa6d797-23db-8019-9eba-d04a9fc05f5f" class="">As Richard P. Benton observed, the appeal of the gothic “lies in its appeal to epistemological and moral ambiguity. It makes us think” (Benton, 1974). Poe himself recognized the power of this form and famously wrote that “the death of a beautiful woman is not only the most poetical subject conceivable, it is also the most intellectually provocative” (Poe, 1846). From this context, we can argue that <em>Ligeia</em> stands as one of the most profound uses of the gothic mode as conceived by Poe himself (Kennedy, 1987).</p><p id="2aa6d797-23db-80e3-b20e-c550d28e59af" class="">The focus on death and revival is yet another similarity between the two stories. Both Ligeia and Mani return from the dead—at least according to their narrators—and in each case, they return in the exact manner the narrators had imagined them throughout their lives. Ligeia comes back with her black, wild eyes and raven-like hair, still the “perfect woman” in the narrator’s mind, now literally otherworldly and no longer human—just as he had always described her. Mani, too, returns adorned in jewels, still greedy and materialistic as the schoolmaster had portrayed her. In this sense, even after death, both women are forced to conform to the male narrators<strong>’ </strong>pre-existing stereotypes, existing only as reflections of male imagination and control (Moers, 1976; Dayan, 1987).</p><p id="2aa6d797-23db-808a-bcdb-dfd522f331f1" class="">However, this is not the only interpretation of these two stories. While this reading is highly valid and insightful through a feminist lens, there are many other possible approaches to interpret both texts. That is precisely why both these stories fall under the category of <strong>“</strong>Speculative Gothic<strong>.”</strong></p><p id="2aa6d797-23db-8065-a479-e70975f75ad8" class="">In his paper, Paul Lewis classifies the gothic as either <em>didactic</em> or <em>speculative </em>(Lewis,1979). In didactic gothic, although events may initially seem unclear to both the characters and the readers, they are ultimately resolved. In speculative gothic, however, the author uses the plot as a framework to invite readers to think. The absence of resolution does not diminish the work’s significance; rather, it opens up possibilities for multiple interpretations under shifting perceptions (Lewis, 1995). Both Poe and Tagore used this form masterfully—to raise questions about the societies they lived in and to involve readers in their search for answers.</p><hr id="2aa6d797-23db-8082-90fb-efaa8e6db32e"/><p id="2aa6d797-23db-80e4-be61-d9f89e3b1a74" class="">
+</p><h3 id="2aa6d797-23db-8084-b513-edc06a6edfd9" class="">Contemporary impact and closing thoughts</h3><p id="2aa6d797-23db-8099-991a-d1c8a8261dd8" class="">While the stories were written in the past, they still hold significant relevance in the present day. The Sustainable Development Goals (SDGs) are a set of 17 interconnected goals aimed at making the world a more equitable and sustainable place. One of the most important among them is Goal 5, which seeks to achieve gender equality, eliminate violence against women, and ensure equal opportunities for all women and girls (United Nations, 2015).</p><p id="2aa6d797-23db-80bb-8c8a-c18e3ddef1b6" class="">The inclusion of gender equality in the SDGs is not merely an individual ideal but a necessity for achieving all other goals. Gender influences every aspect of sustainable development — from health and education to economic growth and environmental sustainability (UN Women, 2022). Persistent gender inequality reinforces cycles of poverty and systemic disparity.</p><p id="2aa6d797-23db-80f6-b9a6-eb9efb937039" class="">Take SDG 8, for instance, which focuses on economic growth. Women constitute roughly 50% of the global population and, consequently, 50% of the potential workforce. Excluding them from opportunities and decision-making processes undermines the very foundation of sustainable economic development (International Labour Organization, 2020).</p><p id="2aa6d797-23db-808d-9d59-e35dbf8dcf53" class="">Similarly, gender inequality in education restricts access to learning opportunities for girls and women, hindering progress toward universal education (SDG 4) (UNESCO, 2021). In many regions, girls are forced to drop out of school due to early marriage or pregnancy. Education plays a vital role in breaking gender stereotypes and opening doors to better opportunities for women (UNICEF, 2023).</p><p id="2aa6d797-23db-805d-8bba-f80852203231" class="">The connection between gender and climate change (SDG 13) is also crucial. Climate change disproportionately affects women, especially those in developing countries. Women are often responsible for managing household resources such as water and food, and climate disruptions make these responsibilities even more challenging, emphasizing the need for their active participation in climate adaptation efforts (UN Women, 2021).</p><p id="2aa6d797-23db-8046-ad54-e90fddbe0acc" class="">Gender inequality also directly impacts health (SDG 3) in various ways. Women face specific health issues tied to reproductive health that require attention and care. In many parts of the world, cultural taboos and discrimination prevent women from accessing healthcare facilities, worsening their health outcomes (World Health Organization, 2019).</p><p id="2aa6d797-23db-804f-88e2-e747a9ca5092" class="">According to the United Nations, although progress has been made, the world is not on track to achieve gender equality. Sexual violence and exploitation, the unequal division of unpaid care and domestic work, and discrimination in leadership and public office continue to remain significant barriers (United Nations, 2023).</p><p id="2aa6d797-23db-8035-ad26-e2e18a2e6870" class="">This is where the importance of stories such as the ones discussed in this paper becomes clear. They help us introspect and confront our own biases and prejudices. They act as mirrors through which we can examine the societies we live in. Even though the stories may contain fantastical or supernatural elements, the questions they raise are profoundly real and deeply relevant — especially those concerning the role of women in society and the way men perceive and represent them.</p><p id="2aa6d797-23db-80e8-963e-cace5db25814" class="">These stories can also be viewed through the framework of the SDGs. How different would <em>Ligeia</em> have been if both the women had access to better healthcare? Were they truly limited by the medical technology of their time, or was it the flawed patriarchal medical system, which dismissed women’s illnesses as “hysteria,” that shaped their fate? Similarly, how different would <em>The Lost Jewels</em> have been if Mani had not been married off so young and instead received an education? Would she still have seen her jewels as her greatest possession, or would she have viewed them as replaceable, with the knowledge and means to earn more in the future?</p><p id="2aa6d797-23db-8028-b262-ce7a2e7525eb" class="">These questions do not have definite answers within the stories themselves — they are questions we must reflect upon as readers and members of society.</p><p id="2aa6d797-23db-80e9-86a0-eec628d66653" class="">This connects to a larger truth about why humans create stories and art in the first place. Art offers a space to ask questions that cannot be easily expressed in simple words. It offers a space to vent, to grapple with our own thoughts, and to reflect. Stories mirror the times and circumstances in which they were written, placing a magnifying glass over the problems of their age. In doing so, stories hold the power to shape societies, raise awareness, and spark transformation.</p><p id="2aa6d797-23db-8098-b5bc-f7fb74144e61" class="">Art and society continuously mold each other. By studying art — even works from the past — we shed light on the present and illuminate the many possible paths we, as a society, can take in the future</p><hr id="2aa6d797-23db-801b-95f2-f197a612fdb9"/><h3 id="2aa6d797-23db-80db-a94d-fe18fd36031f" class="">References</h3><ul id="2aa6d797-23db-8029-a0be-eabc4930bde8" class="bulleted-list"><li style="list-style-type:disc">Benton, R. P. (1974). <em>Poe and the power of the Gothic.</em> In B. Pollin (Ed.), <em>Twentieth century interpretations of Poe’s tales</em> (pp. 57–68). Prentice Hall.</li></ul><ul id="2aa6d797-23db-8052-8cc3-d6d53db62ac2" class="bulleted-list"><li style="list-style-type:disc">Botting, F. (1996). <em>Gothic.</em> Routledge.</li></ul><ul id="2aa6d797-23db-80ed-99de-f4777654338d" class="bulleted-list"><li style="list-style-type:disc">Chakrabarty, D. (1992). <em>Provincializing Europe: Postcolonial thought and historical difference.</em> Princeton University Press.</li></ul><ul id="2aa6d797-23db-80fe-bf6e-cd4febf81de4" class="bulleted-list"><li style="list-style-type:disc">Chatterjee, P. (1989). Colonialism, nationalism, and colonialized women: The contest in India. <em>American Ethnologist, 16</em>(4), 622–633.</li></ul><ul id="2aa6d797-23db-80a9-aa5c-eedee574e09f" class="bulleted-list"><li style="list-style-type:disc">Dayan, J. (1987). <em>Fables of mind: An inquiry into Poe’s fiction.</em> Oxford University Press.</li></ul><ul id="2aa6d797-23db-8025-8a73-e9ff96061a65" class="bulleted-list"><li style="list-style-type:disc">Fleenor, J. E. (Ed.). (1983). <em>The Female Gothic.</em> Eden Press.</li></ul><ul id="2aa6d797-23db-8044-b72b-e8e5c0f4e7b9" class="bulleted-list"><li style="list-style-type:disc">Hoffman, D. (1972). <em>Poe Poe Poe Poe Poe Poe Poe.</em> Doubleday.</li></ul><ul id="2aa6d797-23db-80da-a955-e6d1e8c63bc2" class="bulleted-list"><li style="list-style-type:disc">Hume, R. D. (1969). <em>Gothic versus Romantic: A revaluation of the Gothic novel.</em> <em>PMLA, 84</em>(2), 282–290.</li></ul><ul id="2aa6d797-23db-80b9-9d64-c4a2caa8240a" class="bulleted-list"><li style="list-style-type:disc">Lewis, P. (1979). The Intellectual Functions of Gothic Fiction: Poe’s “Ligeia” and Tieck’s “Wake Not the Dead.” <em>Comparative Literature Studies</em>, <em>16</em>(3), 207–221. http://www.jstor.org/stable/40245759</li></ul><ul id="2aa6d797-23db-806a-a485-d6ef8c814ea6" class="bulleted-list"><li style="list-style-type:disc">International Labour Organization. (2020). <em>Women at work trends 2020.</em> <a href="https://www.ilo.org/">https://www.ilo.org</a></li></ul><ul id="2aa6d797-23db-806d-95a6-f42f4b126107" class="bulleted-list"><li style="list-style-type:disc">Joshi, S. (2014). <em>Tagore and the Gothic imagination: Fear, beauty, and the uncanny in Bengal.</em> <em>Modern Asian Studies, 48</em>(3), 665–688.</li></ul><ul id="2aa6d797-23db-80f8-9653-c347c898e731" class="bulleted-list"><li style="list-style-type:disc">Kennedy, J. G. (1987). <em>A historical guide to Edgar Allan Poe.</em> Oxford University Press.</li></ul><ul id="2aa6d797-23db-8081-a8d2-e58de7eb0e9e" class="bulleted-list"><li style="list-style-type:disc">Lewis, P. (1995). The twin uses of uncertainty in the Gothic. <em>Studies in Short Fiction, 32</em>(1), 1–10.</li></ul><ul id="2aa6d797-23db-807a-84db-d3c09fa683f2" class="bulleted-list"><li style="list-style-type:disc">Miles, R. (2002). <em>Gothic Writing, 1750–1820: A Genealogy.</em> Routledge.</li></ul><ul id="2aa6d797-23db-80e8-aa76-e1143386b427" class="bulleted-list"><li style="list-style-type:disc">Moers, E. (1976). <em>Literary Women: The Great Writers.</em> Oxford University Press.</li></ul><ul id="2aa6d797-23db-801b-988f-ccd537823891" class="bulleted-list"><li style="list-style-type:disc">Poe, E. A. (1846). <em>The philosophy of composition.</em> <em>Graham’s Magazine, 28</em>(4), 163–167.</li></ul><ul id="2aa6d797-23db-80df-94da-de350387b4cd" class="bulleted-list"><li style="list-style-type:disc">Punter, D. (1996). <em>The Literature of Terror: A History of Gothic Fictions from 1765 to the Present Day.</em> Longman.</li></ul><ul id="2aa6d797-23db-8073-9e72-f460179e6a66" class="bulleted-list"><li style="list-style-type:disc">Punter, D., &amp; Byron, G. (2004). <em>The Gothic.</em> Blackwell Publishing.</li></ul><ul id="2aa6d797-23db-8079-94f8-daacffb2801e" class="bulleted-list"><li style="list-style-type:disc">Sarkar, T. (2001). <em>Hindu wife, Hindu nation: Community, religion, and cultural nationalism.</em> Indiana University Press.</li></ul><ul id="2aa6d797-23db-807f-9732-f9304d409251" class="bulleted-list"><li style="list-style-type:disc">UNESCO. (2021). <em>Education and gender equality.</em> <a href="https://www.unesco.org/">https://www.unesco.org</a></li></ul><ul id="2aa6d797-23db-8035-974b-ce813c1b40bc" class="bulleted-list"><li style="list-style-type:disc">UNICEF. (2023). <em>Education: For every girl, everywhere.</em> <a href="https://www.unicef.org/">https://www.unicef.org</a></li></ul><ul id="2aa6d797-23db-8066-be2b-dcd325b2ff0e" class="bulleted-list"><li style="list-style-type:disc">United Nations. (2015). <em>Transforming our world: The 2030 Agenda for Sustainable Development.</em> <a href="https://sdgs.un.org/2030agenda">https://sdgs.un.org/2030agenda</a></li></ul><ul id="2aa6d797-23db-807e-a7c0-efad1774dd0f" class="bulleted-list"><li style="list-style-type:disc">United Nations. (2023). <em>The Sustainable Development Goals Report 2023.</em> <a href="https://unstats.un.org/sdgs/report/2023">https://unstats.un.org/sdgs/report/2023</a></li></ul><ul id="2aa6d797-23db-8051-8ba4-ff0fba500e75" class="bulleted-list"><li style="list-style-type:disc">UN Women. (2021). <em>Gender equality and climate change.</em> <a href="https://www.unwomen.org/">https://www.unwomen.org</a></li></ul><ul id="2aa6d797-23db-80d4-a0b0-f7625eadc646" class="bulleted-list"><li style="list-style-type:disc">UN Women. (2022). <em>Progress on the Sustainable Development Goals: The gender snapshot 2022.</em> <a href="https://www.unwomen.org/">https://www.unwomen.org</a></li></ul><ul id="2aa6d797-23db-80f4-95a0-ef618e6efcff" class="bulleted-list"><li style="list-style-type:disc">World Health Organization. (2019). <em>Delivered by women, led by men: A gender and equity analysis of the global health and social workforce.</em> <a href="https://www.who.int/">https://www.who.int</a></li></ul></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
